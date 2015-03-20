@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dp_primernom: MyString
+  dp_primerape: MyString
+  dp_cedula: MyString
+  dateable_type: MyString
+  dateable_id: 1
+
+two:
+  dp_primernom: MyString
+  dp_primerape: MyString
+  dp_cedula: MyString
+  dateable_type: MyString
+  dateable_id: 1

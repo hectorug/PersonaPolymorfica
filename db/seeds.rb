@@ -7,8 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 #Creando datos de prueba para tabla estudiante y Datos Personales
-e1 = DawEstudiante.create(:estu_nacionalidad => "Venezuela", :estu_biografia => "Esta es mi biografia de estudiante 1")
-e2 = DawEstudiante.create(:estu_nacionalidad => "Espaniola", :estu_biografia => "Esta es mi biografia de estudiante 2")
+e1 = DawEstudiante.create(estu_nacionalidad: "Venezuela", estu_biografia: "Esta es mi biografia de estudiante 1")
+e2 = DawEstudiante.create(estu_nacionalidad: "Espaniola", estu_biografia: "Esta es mi biografia de estudiante 2")
 
-dp1 = DawDatosPersona.create(:pers_cedula => "V-17123456", :pers_primernom => "gus", :pers_segundonom => "gas", :pers_primerape => "fdsfd", 
-	:pers_segundoape => "bustamante", :pers_estadocivil => "soltero", :pers_sexo => "femenino" )
+#e1.DawDatosPersona.create(pers_cedula: "V-17123456", pers_primernom: "gus", pers_segundonom: "gas", pers_primerape: "fdsfd", 
+#	pers_segundoape: "bustamante", pers_estadocivil: "soltero", pers_sexo: "femenino")
